@@ -23,7 +23,7 @@ const Home = () => {
             className={`${card.color} text-white p-6 rounded-lg shadow-lg flex flex-col items-center`}
           >
             <div className="text-4xl mb-4">{card.icon}</div>
-            <button className="border border-white px-2 py-2 rounded-md hover:bg-white hover:text-black transition">
+            <button className="border border-white px-2 py-2 rounded-md hover:bg-white hover:text-black cursor-pointer transition">
               {card.title}
             </button>
           </div>
