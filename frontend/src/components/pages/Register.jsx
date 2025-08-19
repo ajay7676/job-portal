@@ -189,7 +189,6 @@ const Register =() => {
 
           {/* Social Login Buttons */}
           <div
-           
              className="grid-cols-2 gap-3 mb-6 hidden"
           >
             <button
@@ -593,7 +592,7 @@ const Register =() => {
             <p style={{ color: "#94a3b8", fontSize: "0.875rem", margin: 0 }}>
               Already have an account?{" "}
               <Link
-                href="/signin"
+                to="/login"
                 style={{
                   color: "#c084fc",
                   textDecoration: "none",
