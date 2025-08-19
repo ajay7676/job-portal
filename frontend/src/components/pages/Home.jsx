@@ -13,7 +13,7 @@ const Home = () => {
     const cards = [
     { title: "DK GLOBAL MANAGEMENT", color: "bg-[#9d265c]", icon: Management , url: "#/management/login" },
     { title: "DK GLOBAL OPERATIONS", color: "bg-[#066]", icon: Operations, url: "#/operations/login" },
-    { title: "DK GLOBAL RECRUITMENT", color: "bg-[#2b8faf]", icon: Recruitment, url: "/recruitment/login" },
+    { title: "DK GLOBAL RECRUITMENT", color: "bg-[#36205d]", icon: Recruitment, url: "/recruitment/login" },
     { title: "DK GLOBAL WORKSPACE", color: "bg-[linear-gradient(135deg,#667eea,#764ba2)]", icon: Workspace , url: "#/workspace/login"},
     { title: "EMPLOYERS ACCOUNT", color: "bg-[#523e5b]", icon: Employers , url: "#/emp-account/login" },
     { title: "PARTNERS ACCOUNT", color: "bg-[#00506e]", icon: Partners, url: "#/partners-acc/login" },
