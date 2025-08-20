@@ -1,5 +1,6 @@
 import React from "react";
 import DKGCRM from '../../../assets/images/dkgcrm.png'
+import FAQModal from "./main-header-modal/FAQModal";
 
 
 const MainHeader = () => {
@@ -10,9 +11,10 @@ const MainHeader = () => {
       <img src={DKGCRM} className="w-full" alt="DKG CRM LOGO" />
       </div>   
       <h1 className="text-xl font-bold">DK GLOBAL CRM</h1>
-      <button className="px-4 py-2 bg-sky-600 text-white rounded-md shadow">
+      {/* <button className="px-4 py-2 bg-sky-600 text-white rounded-md shadow">
         LOGINS FAQ
-      </button>
+      </button> */}
+      <FAQModal />
     </header>
   );
 };
